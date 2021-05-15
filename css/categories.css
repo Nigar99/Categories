@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box; 
+ }
+.fa-arrow-right {
+    font-size: 12px;
+}
+.nav {
+    margin-left: 234px;
+    font-size: 17px;
+}
+
+.landings {
+    margin: 1px 169px;
+    display: none;
+}
+.menuland:hover .secret {
+display: block;
+}
+
+.hiddenicon {
+    display: none;
+}
+.menuland:hover .hiddenicon, .menupage:hover .hiddenicon, .menudoc:hover .hiddenicon {
+    display: inline;
+}
+.menuland:hover .changeicon, .menupage:hover .changeicon, .menudoc:hover .changeicon {
+    display: none;
+}
+.center {
+    border-bottom: 2px solid rgb(241, 241, 241);
+    border-top: 2px solid rgb(241, 241, 241);
+}
+.right {
+    border-right: 2px solid rgb(241, 241, 241);
+    border-bottom: 2px solid rgb(241, 241, 241);
+    border-top: 2px solid rgb(241, 241, 241);
+}
+
+.landings .left {
+    background-image: url("mountain.jpg");
+    padding-top: 17%;
+}
+.content {
+    padding: 131px 366px;
+}
+.content-p {
+    color: rgb(148, 189, 189);
+}
+section.down {
+    background-color: rgb(223, 219, 219);
+}
+.card-img-top {
+    height: 149px;
+}
+.card {
+    width: 236px;
+}
+.card:hover {
+    animation-name: transparent;
+    animation-duration: 333ms;
+    animation-fill-mode: forwards;
+    box-shadow: 5px 5px lightgray;
+}
+.negative {
+    margin-top: -15px;
+}
+.position-absolute {
+    right: 0%;
+    top: 5%;
+}
+.browse {
+    margin-top: 95px;
+}
+.fa-car {
+    background-color: red;
+}
+.carborder {
+    border-bottom: 5px solid red;
+}
+
+.fa-home {
+    background-color: orangered;
+}
+.houseborder {
+    border-bottom: 5px solid orangered;
+}
+
+.giftborder, .techborder  {
+    border-bottom: 5px solid;
+}
+.fa-mobile-alt {
+    padding:  23px 30px ;
+}
+.fa-couch {
+    background-color: cyan;
+}
+.furnitureborder {
+    border-bottom: 5px solid cyan;
+}
+.fa-briefcase {
+    background-color: blue;
+}
+.jobsborder {
+    border-bottom: 5px solid blue;
+}
+.fa-biking {
+    background-color: purple;
+}
+.leisureborder {
+    border-bottom: 5px solid purple;
+}
+.fa-shopping-cart {
+    background-color: rgb(255, 7, 255);
+}
+.otherborder {
+    border-bottom: 5px solid rgb(255, 7, 255); 
+}
+.carborder:hover, .houseborder:hover, .giftborder:hover, .techborder:hover, .furnitureborder:hover, .jobsborder:hover, .leisureborder:hover, .otherborder:hover {
+    animation-name: transparent;
+    animation-duration: 333ms;
+    animation-fill-mode: forwards;
+}
+@keyframes transparent {
+    from {
+        transform: translateY(0)
+    }
+    to {
+        transform: translateY(-9px);
+    }
+}
+.get-the-app {
+    background-color: rgb(36, 2, 231);
+    border-bottom-left-radius: 111px 55px;
+    border-bottom-right-radius: 111px 55px ;
+}
